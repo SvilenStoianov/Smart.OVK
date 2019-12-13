@@ -1,0 +1,6 @@
+Неправилен StatusBits! Дата: 09.09.2019 13:54:13 Грешка: System.ArgumentOutOfRangeException: Number was less than the array's lower bound in the first dimension.
+Parameter name: sourceIndex
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length)
+   at Smart.Datecs.Fiscal.CommandReply.get_STATUS() in D:\DEV\Smart.OVK\Smart.Datecs\Fiscal\CommandReply.cs:line 75
+   at Smart.Datecs.Fiscal.CommandReply.get_StatusBits() in D:\DEV\Smart.OVK\Smart.Datecs\Fiscal\CommandReply.cs:line 124

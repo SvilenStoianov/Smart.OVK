@@ -1,0 +1,3 @@
+﻿{
+  "ConnectionString": "Server=myServerAddress;Port=1234;Database=myDataBase;Uid=myUsername;Pwd=myPassword;"
+}
